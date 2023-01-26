@@ -1,0 +1,16 @@
+{
+  "name": "test-cohere",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "generate:blogs": "node ./src/cli/generate-blogpost-paragraph.js",
+    "generate:interview": "node ./src/cli/generate-interview.js"
+  },
+  "dependencies": {
+    "cohere-ai": "5.0.2",
+    "dotenv": "16.0.0",
+    "ora": "6.1.2"
+  }
+}
